@@ -4,13 +4,26 @@
   "description": "Lumi - App de estudos",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dist": "electron-builder"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "electron": "^44.5.1"
+    "electron": "^44.5.1",
+    "electron-builder": "^26.15.3"
+  },
+  "allowScripts": {
+    "electron-winstaller@5.4.0": true
+  },
+  "build": {
+    "appId": "com.novatec.lumi",
+    "productName": "Lumi",
+    "win": {
+      "target": "portable",
+      "icon": "build/favicon.ico"
+    }
   }
 }

@@ -164,7 +164,7 @@ function changeScene(sceneName){
                 visitaTexto.textContent = "Boas vindas muahaha"
             }
             else{
-                visitaTexto.textContent = `Opa, voce visitou o site: ${visit} vezes`;
+                visitaTexto.textContent = `Opa, voce visitou o aplicativo: ${visit} vezes`;
             }
         }
         if(sceneName == 'pomodoro'){

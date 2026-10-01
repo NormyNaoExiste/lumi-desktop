@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@font-face{
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
 
 :root{
     --base-clr: #0D0B10;
