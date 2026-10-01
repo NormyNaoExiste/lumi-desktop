@@ -1,0 +1,16 @@
+{
+  "name": "lumi-desktop",
+  "version": "1.0.0",
+  "description": "Lumi - App de estudos",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^44.5.1"
+  }
+}
